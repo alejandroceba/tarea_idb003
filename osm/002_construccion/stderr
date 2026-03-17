@@ -1,0 +1,2 @@
+Failed to run workflow. Last Error:
+  Found error in state 'EnergyPlus' with message: '../../__w/OpenStudio/OpenStudio/src/workflow/RunEnergyPlus.cpp@310 : EnergyPlus Terminated with a Fatal Error. Check eplusout.err log.'

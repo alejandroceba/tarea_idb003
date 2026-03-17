@@ -1,0 +1,30 @@
+{
+  "Site Diffuse Solar Radiation Rate per Area" : 
+  {
+    "applicable" : true,
+    "key_value" : "*",
+    "reporting_frequency" : "hourly",
+    "variable_name" : "Site Diffuse Solar Radiation Rate per Area"
+  },
+  "Site Direct Solar Radiation Rate per Area" : 
+  {
+    "applicable" : true,
+    "key_value" : "*",
+    "reporting_frequency" : "hourly",
+    "variable_name" : "Site Direct Solar Radiation Rate per Area"
+  },
+  "Surface Outside Face Incident Solar Radiation Rate per Area" : 
+  {
+    "applicable" : true,
+    "key_value" : "techo_este",
+    "reporting_frequency" : "hourly",
+    "variable_name" : "Surface Outside Face Incident Solar Radiation Rate per Area"
+  },
+  "Zone Mean Air Temperature" : 
+  {
+    "applicable" : true,
+    "key_value" : "este",
+    "reporting_frequency" : "hourly",
+    "variable_name" : "Zone Mean Air Temperature"
+  }
+}

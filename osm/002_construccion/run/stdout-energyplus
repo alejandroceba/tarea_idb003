@@ -1,0 +1,8 @@
+ExpandObjects Started.
+No expanded file generated.
+ExpandObjects Finished. Time:     0.006
+EnergyPlus Starting
+EnergyPlus, Version 25.2.0-cf7368216c, YMD=2026.03.17 01:00
+**FATAL:Errors occurred on processing input file. Preceding condition(s) cause termination.
+EnergyPlus Run Time=00hr 00min  0.06sec
+Program terminated: EnergyPlus Terminated--Error(s) Detected.

@@ -1,0 +1,242 @@
+{
+   "completed_at" : "20260317T070040Z",
+   "completed_status" : "Fail",
+   "created_at" : "20260317T054821Z",
+   "current_step" : 4,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 25.2.0-cf7368216c, YMD=2026.03.17 01:00,\n   ** Severe  ** <root>[BuildingSurface:Detailed][Face 0] - Missing required property 'construction_name'.\n   **  Fatal  ** Errors occurred on processing input file. Preceding condition(s) cause termination.\n   ...Summary of Errors that led to program termination:\n   ..... Reference severe error count=1\n   ..... Last severe error=<root>[BuildingSurface:Detailed][Face 0] - Missing required property 'construction_name'.\n   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).\n   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.06sec\n",
+   "file_paths" : 
+   [
+      "/tmp/osmodel-674b-ba0a-cbac-77e6-1773726501-0/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "270ED751",
+   "run_options" : null,
+   "seed_file" : "../002_construccion.osm",
+   "started_at" : "20260317T070034Z",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "key_value" : "este",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Zone Mean Air Temperature",
+         "result" : 
+         {
+            "completed_at" : "20260317T070035Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "Add Output Variable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "e84e2244-3691-44fa-ac91-7421e2a54367",
+            "measure_version_modified" : "20250801T143531Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20260317T070035Z",
+            "stderr" : "",
+            "stdout" : "[openstudio.measure.OSRunner] <Info> The model started with 0 output variable objects.\n[openstudio.measure.OSRunner] <Info> Adding output variable for Zone Mean Air Temperature reporting hourly.\n[openstudio.measure.OSRunner] <Info> Key value for variable is este.\n[openstudio.measure.OSRunner] <Info> The model finished with 1 output variable objects.\n",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 1 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Zone Mean Air Temperature reporting hourly.",
+               "Key value for variable is este."
+            ],
+            "step_initial_condition" : "The model started with 0 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Zone Mean Air Temperature"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "este"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "variable_name" : "Site Diffuse Solar Radiation Rate per Area"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Diffuse Solar Radiation Rate per Area",
+         "result" : 
+         {
+            "completed_at" : "20260317T070035Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "Add Output Variable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "e84e2244-3691-44fa-ac91-7421e2a54367",
+            "measure_version_modified" : "20250801T143531Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20260317T070035Z",
+            "stderr" : "",
+            "stdout" : "[openstudio.measure.OSRunner] <Info> The model started with 1 output variable objects.\n[openstudio.measure.OSRunner] <Info> Adding output variable for Site Diffuse Solar Radiation Rate per Area reporting hourly.\n[openstudio.measure.OSRunner] <Info> Key value for variable is *.\n[openstudio.measure.OSRunner] <Info> The model finished with 2 output variable objects.\n",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 2 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Site Diffuse Solar Radiation Rate per Area reporting hourly.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 1 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Site Diffuse Solar Radiation Rate per Area"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "variable_name" : "Site Direct Solar Radiation Rate per Area"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Direct Solar Radiation Rate per Area",
+         "result" : 
+         {
+            "completed_at" : "20260317T070035Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "Add Output Variable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "e84e2244-3691-44fa-ac91-7421e2a54367",
+            "measure_version_modified" : "20250801T143531Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20260317T070035Z",
+            "stderr" : "",
+            "stdout" : "[openstudio.measure.OSRunner] <Info> The model started with 2 output variable objects.\n[openstudio.measure.OSRunner] <Info> Adding output variable for Site Direct Solar Radiation Rate per Area reporting hourly.\n[openstudio.measure.OSRunner] <Info> Key value for variable is *.\n[openstudio.measure.OSRunner] <Info> The model finished with 3 output variable objects.\n",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 3 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Site Direct Solar Radiation Rate per Area reporting hourly.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 2 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Site Direct Solar Radiation Rate per Area"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : 
+         {
+            "key_value" : "techo_este",
+            "variable_name" : "Surface Outside Face Incident Solar Radiation Rate per Area"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Surface Outside Face Incident Solar Radiation Rate per Area",
+         "result" : 
+         {
+            "completed_at" : "20260317T070035Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "Add Output Variable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "e84e2244-3691-44fa-ac91-7421e2a54367",
+            "measure_version_modified" : "20250801T143531Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20260317T070035Z",
+            "stderr" : "",
+            "stdout" : "[openstudio.measure.OSRunner] <Info> The model started with 3 output variable objects.\n[openstudio.measure.OSRunner] <Info> Adding output variable for Surface Outside Face Incident Solar Radiation Rate per Area reporting hourly.\n[openstudio.measure.OSRunner] <Info> Key value for variable is techo_este.\n[openstudio.measure.OSRunner] <Info> The model finished with 4 output variable objects.\n",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 4 output variable objects.",
+            "step_info" : 
+            [
+               "Adding output variable for Surface Outside Face Incident Solar Radiation Rate per Area reporting hourly.",
+               "Key value for variable is techo_este."
+            ],
+            "step_initial_condition" : "The model started with 3 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : 
+            [
+               {
+                  "name" : "variable_name",
+                  "value" : "Surface Outside Face Incident Solar Radiation Rate per Area"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "hourly"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "techo_este"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : {},
+         "description" : "This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data.",
+         "measure_dir_name" : "openstudio_results",
+         "modeler_description" : "For the most part consumption data comes from the tabular EnergyPlus results, however there are a few requests added for time series results. Space type and loop details come from the OpenStudio model. The code for this is modular, making it easy to use as a template for your own custom reports. The structure of the report uses bootstrap, and the graphs use dimple js. The new measure warning section will show warnings generated by upstream measures. It will not show forward translation warnings, EnergyPlus warnings, or warnings that might be reported by this measure.",
+         "name" : "OpenStudio Results"
+      }
+   ],
+   "updated_at" : "20260317T070040Z",
+   "weather_file" : "MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.2009-2023.epw"
+}
