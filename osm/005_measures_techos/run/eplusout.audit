@@ -1,9 +1,9 @@
   Processing Schedule Input -- Start
   Processing Schedule Input -- Complete
- MonthlyInputCount=          16
+ MonthlyInputCount=           8
  sizeMonthlyInput=          25
- MonthlyFieldSetInputCount=         208
- sizeMonthlyFieldSetInput=         400
+ MonthlyFieldSetInputCount=          96
+ sizeMonthlyFieldSetInput=         100
  MonthlyTablesCount=           0
  MonthlyColumnsCount=           0
  sizeReportName=         100
@@ -31,8 +31,8 @@
  MAXHCArrayBounds=          10
  MaxVerticesPerSurface=           4
  ClippingAlgorithm=SutherlandHodgman
- MonthlyFieldSetInputCount=         208
- NumConsideredOutputVariables=         215
+ MonthlyFieldSetInputCount=          96
+ NumConsideredOutputVariables=         103
  MaxConsideredOutputVariables=       10000
  numActuatorsUsed=           0
  numEMSActuatorsAvailable=           0

@@ -643,24 +643,39 @@ Site:Location,
   No;                                     !- Keep Site Location Information
 
 Output:Variable,
-  este&#44oeste,                          !- Key Value
+  este,                                   !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
 
 Output:Variable,
   *,                                      !- Key Value
   Site Diffuse Solar Radiation Rate per Area, !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
 
 Output:Variable,
   *,                                      !- Key Value
   Site Direct Solar Radiation Rate per Area, !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
 
 Output:Variable,
-  techo_este&#44techo_oeste,              !- Key Value
+  techo_este,                             !- Key Value
   Surface Outside Face Incident Solar Radiation Rate per Area, !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  oeste,                                  !- Key Value
+  Zone Mean Air Temperature,              !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  techo_oeste,                            !- Key Value
+  Surface Outside Face Incident Solar Radiation Rate per Area, !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+Output:Variable,
+  *,                                      !- Key Value
+  Site Outdoor Air Drybulb Temperature,   !- Variable Name
+  timestep;                               !- Reporting Frequency
 
 OutputControl:Table:Style,
   HTML;                                   !- Column Separator

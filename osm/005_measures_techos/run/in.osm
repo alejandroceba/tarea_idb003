@@ -161,7 +161,7 @@ OS:WeatherFile,
   -99.262,                                !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   1303.6,                                 !- Elevation {m}
-  /tmp/osmodel-234a-f2c7-9a1c-475d-1773752768-0/resources/files/MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.2009-2023.epw, !- Url
+  /tmp/osmodel-867b-bb4c-460d-ec91-1773871010-0/resources/files/MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.2009-2023.epw, !- Url
   271933A7,                               !- Checksum
   ,                                       !- Start Date Actual Year
   Sunday;                                 !- Start Day of Week
@@ -778,30 +778,51 @@ OS:Surface,
   71, 104, 3;                             !- X,Y,Z Vertex 4 {m}
 
 OS:Output:Variable,
-  {ec0520ee-69cc-4925-affb-9f83f854e79a}, !- Handle
+  {02202d09-f5b8-46fa-a106-5dab2887d74d}, !- Handle
   Output Variable 1,                      !- Name
-  este&#44oeste,                          !- Key Value
+  este,                                   !- Key Value
   Zone Mean Air Temperature,              !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {4c8db5cd-c2a2-452e-b9a6-beaa8741a7d6}, !- Handle
+  {ff2c5260-3d7a-46a8-868d-2206587312b3}, !- Handle
   Output Variable 2,                      !- Name
   *,                                      !- Key Value
   Site Diffuse Solar Radiation Rate per Area, !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {ffb44b56-4405-4761-99fb-78920598b68d}, !- Handle
+  {b2742611-4357-4e56-9b53-6895aac5462b}, !- Handle
   Output Variable 3,                      !- Name
   *,                                      !- Key Value
   Site Direct Solar Radiation Rate per Area, !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
 
 OS:Output:Variable,
-  {de156712-4e4f-4f6e-88a1-de4ab81fa532}, !- Handle
+  {a12b80fb-6b1e-46b9-b1ab-f00728b6e91b}, !- Handle
   Output Variable 4,                      !- Name
-  techo_este&#44techo_oeste,              !- Key Value
+  techo_este,                             !- Key Value
   Surface Outside Face Incident Solar Radiation Rate per Area, !- Variable Name
-  hourly;                                 !- Reporting Frequency
+  timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {ba079a22-09a8-4188-9832-563658fedee6}, !- Handle
+  Output Variable 5,                      !- Name
+  oeste,                                  !- Key Value
+  Zone Mean Air Temperature,              !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {275e1b90-24c2-434a-8a42-ad394999be43}, !- Handle
+  Output Variable 6,                      !- Name
+  techo_oeste,                            !- Key Value
+  Surface Outside Face Incident Solar Radiation Rate per Area, !- Variable Name
+  timestep;                               !- Reporting Frequency
+
+OS:Output:Variable,
+  {621baea7-0a1b-467a-82d0-eac1bea69eb6}, !- Handle
+  Output Variable 7,                      !- Name
+  *,                                      !- Key Value
+  Site Outdoor Air Drybulb Temperature,   !- Variable Name
+  timestep;                               !- Reporting Frequency
 

@@ -1,5 +1,5 @@
 
- Meters for 12,ESTE:Zone Air System Sensible Heating Energy [J]
+ Meters for 14,ESTE:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:ESTE [J]
@@ -8,7 +8,7 @@
   OnMeter=General:Heating:EnergyTransfer [J]
   OnMeter=General:Heating:EnergyTransfer:Zone:ESTE [J]
 
- Meters for 97,ESTE:Zone Air System Sensible Cooling Energy [J]
+ Meters for 99,ESTE:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:ESTE [J]
